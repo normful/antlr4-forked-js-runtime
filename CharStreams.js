@@ -8,7 +8,7 @@
 var InputStream = require('./InputStream').InputStream;
 
 var isNodeJs = typeof window === 'undefined' && typeof importScripts === 'undefined';
-var fs = isNodeJs ? require("fs") : null;
+var fs = null;
 
 // Utility functions to create InputStreams from various sources.
 //
